@@ -1,0 +1,19 @@
+/* responsive */
+body{
+  width: 95%;
+  margin: 0 auto;
+}
+img{width: 100%;}
+
+/* if screen width >= 768 px, make the body skinnier so it's easier to read*/
+@media only screen and (min-width: 768px){
+	body{max-width: 60% !important;}
+}
+
+* {
+  box-sizing: border-box
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
