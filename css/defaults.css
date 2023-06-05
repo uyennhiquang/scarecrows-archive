@@ -15,10 +15,6 @@ img{width: 100%;}
   box-sizing: border-box
 }
 
-li {
-  margin-bottom: 0.25rem;
-}
-
 /* dark mode */
 body {
   background: #161923;
