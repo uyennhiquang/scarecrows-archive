@@ -1,28 +1,33 @@
 /* responsive */
-body{
+body {
   width: 95%;
   margin: 0 auto;
 }
 
-img{width: 100%;}
+img {
+  width: 100%;
+}
 
 /* if screen width >= 768 px, make the body skinnier so it's easier to read*/
-@media only screen and (min-width: 768px){
-	body{max-width: 60% !important;}
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 60% !important;
+  }
 }
 
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 /* dark mode */
 body {
   background: #161923;
   /* color: #E8BD94; */
-  color: #BBB9C6;
+  color: #bbb9c6;
   line-height: 1.5;
 }
 
-a:link, a:visited {
-  color: #8FF0A4
+a:link,
+a:visited {
+  color: #8ff0a4;
 }
