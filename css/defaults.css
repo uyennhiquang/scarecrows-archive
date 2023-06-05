@@ -17,3 +17,14 @@ img{width: 100%;}
 li {
   margin-bottom: 0.25rem;
 }
+
+/* dark mode */
+body {
+  background: #161923;
+  /* color: #E8BD94; */
+  color: #BBB9C6;
+}
+
+a:link, a:visited {
+  color: #8FF0A4
+}
