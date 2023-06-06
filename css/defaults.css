@@ -19,15 +19,27 @@ img {
   box-sizing: border-box;
 }
 
-/* dark mode */
+/* dark mode*/
+:root.dark {
+  --base-bg: #161923;
+  --base-text-color: #bbb9c6;
+  --base-link-color: #8ff0a4;
+}
+
+:root.light {
+  --base-bg: white;
+  --base-text-color: black;
+  --base-link-color: blue;
+}
+
 body {
-  background: #161923;
+  background: var(--base-bg);
   /* color: #E8BD94; */
-  color: #bbb9c6;
+  color: var(--base-text-color);
   line-height: 1.5;
 }
 
 a:link,
 a:visited {
-  color: #8ff0a4;
+  color: var(--base-link-color, blue);
 }
