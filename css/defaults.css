@@ -43,3 +43,13 @@ a:link,
 a:visited {
   color: var(--base-link-color, blue);
 }
+
+/* Theme Switch button */
+#icon--theme-switch {
+  max-width: 30px;
+  cursor: pointer;
+}
+
+#svg--theme-switch-color {
+  fill: var(--base-text-color, #24283b);
+}
