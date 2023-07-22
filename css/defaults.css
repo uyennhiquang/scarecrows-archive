@@ -27,11 +27,17 @@ img {
 }
 
 :root.light {
-  --base-bg: white;
-  --base-text-color: black;
-  --base-link-color: blue;
+  --base-bg: #fff;
+  --base-text-color: #161923;
+  --base-link-color: #4f239f;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
 body {
   background: var(--base-bg);
   /* color: #E8BD94; */
